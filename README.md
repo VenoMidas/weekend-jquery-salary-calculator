@@ -17,7 +17,7 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 - [X] Update README with instructions
 - [X] Add project checklist to README
 #### Initial File Setup and Sourcing
-- [ ] Create index.html
+- [X] Create index.html
 - [ ] Create and source style.css
 - [ ] Create and source client.js
 - [ ] Create and source jquery.js
