@@ -18,9 +18,9 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 - [X] Add project checklist to README
 #### Initial File Setup and Sourcing
 - [X] Create index.html
-- [ ] Create and source style.css
-- [ ] Create and source client.js
-- [ ] Create and source jquery.js
+- [X] Create and source style.css
+- [X] Create and source client.js
+- [X] Create and source jquery.js
 #### Base Mode Assignment Goals
 - [ ] Create header
 - [ ] Create an input form that collects employee...
