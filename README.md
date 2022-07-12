@@ -46,4 +46,5 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 #### Other Thoughts
 - [ ] Host demo page with github pages
 - [ ] Add Link in README description to hosted demo page
+- [X] Add favicon
 - [ ] Submit assignment
