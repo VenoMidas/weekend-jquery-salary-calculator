@@ -22,7 +22,7 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 - [X] Create and source client.js
 - [X] Create and source jquery.js
 #### Base Mode Assignment Goals
-- [ ] Create header
+- [X] Create header
 - [ ] Create an input form that collects employee...
 - [ ] first name
 - [ ] last name
