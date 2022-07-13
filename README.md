@@ -23,15 +23,15 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 - [X] Create and source jquery.js
 #### Base Mode Assignment Goals
 - [X] Create header
-- [ ] Create an input form that collects employee...
-- [ ] first name
-- [ ] last name
-- [ ] ID number
-- [ ] job title
-- [ ] annual salary
-- [ ] Create a 'Submit' button 
-- [ ] Create a sample table to display employee information
-- [ ] Create Total Monthly Cost footer
+- [X] Create an input form that collects employee...
+- [X] first name
+- [X] last name
+- [X] ID number
+- [X] job title
+- [X] annual salary
+- [X] Create a 'Submit' button 
+- [X] Create a sample table to display employee information
+- [X] Create Total Monthly Cost footer
 - [ ] Create an empty array to store the employee objects in
 - [ ] Collect the form information about the employee and store it
 - [ ] Append the employee information to the DOM

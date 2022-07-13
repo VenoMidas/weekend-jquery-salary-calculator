@@ -1,31 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./scripts/jquery-3.6.0.js"></script>
-    <script src="./scripts/client.js"></script>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
-    <title>Salary Calculator</title>
-</head>
-<body>
-    <h1 class="header">Salary Calculator</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./scripts/jquery-3.6.0.js"></script>
+        <script src="./scripts/client.js"></script>
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+        <title>Salary Calculator</title>
+    </head>
+    <body>
+        <h1 class="header">Salary Calculator</h1>
 
-    <div class="input-form">
-        <h2 class="input-form-header">Add Employee</h2>
+        <div class="input-form">
+            <h2 class="input-form-header">Add Employee</h2>
 
-        <div class="input-form-inputs">
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <input type="text" placeholder="ID">
-            <input type="text" placeholder="Title">
-            <input type="text" placeholder="Annual Salary">
+            <div class="input-form-inputs">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="text" placeholder="ID">
+                <input type="text" placeholder="Title">
+                <input type="text" placeholder="Annual Salary">
+            </div>
+        
+            <button class="input-form-submit-button">Submit</button>
         </div>
-    
-        <button class="input-form-submit-button">Submit</button>
-    </div>
 
-</body>
+        <br>
+        <br>
+
+        <div class="output-container">
+            <h2>Employees</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Annual Salary</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>1234</td>
+                        <td>Sample</td>
+                        <td>$ 55,700</td>
+                        <td>
+                            <button>Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <h2 class="output-total-monthly">Total Monthly: $55,700.00</h2>
+        </div>
+
+    </body>
 </html>

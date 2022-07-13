@@ -33,3 +33,31 @@ body {
     border-radius: 5px;
     height: 25px;
 }
+
+.output-container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: darkcyan;
+    color: #eee;
+    padding: 10px 0px;
+}
+
+th, td {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.output-total-monthly {
+    float: right;
+}
