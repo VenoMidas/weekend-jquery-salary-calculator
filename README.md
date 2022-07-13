@@ -32,10 +32,10 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 - [X] Create a 'Submit' button 
 - [X] Create a sample table to display employee information
 - [X] Create Total Monthly Cost footer
-- [ ] Create an empty array to store the employee objects in
-- [ ] Collect the form information about the employee and store it
+- [X] Create an empty array to store the employee objects in
+- [X] Collect the form information about the employee and store it
 - [ ] Append the employee information to the DOM
-- [ ] Empty the input fields
+- [X] Empty the input fields
 - [ ] Use stored info to calculate monthly costs and append to the DOM
 - [ ] Change background to the total monthly cost to red if monthly cost exceeds $20,000
 - [ ] Create a 'Delete' button to remove an employee from the DOM (for base mode does not need to remove salary)
