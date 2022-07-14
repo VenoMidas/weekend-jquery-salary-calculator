@@ -2,11 +2,15 @@
 Create an application that records employee salaries and adds salaries up to report monthly costs. 
 
 ## Description
+Need to calculate the monthly salary cost of all of your employees? Maybe it is review season and you need
+to stay under budget when considering raises? Look no further!
 
-Will update this later - need to have a deepr understanding of the project 
-Your project description goes here. What problem did you solve? How did you solve it?
+Here you can input your employee information and get a total monthly salary cost at the end. Want to change 
+employee information you already input? Use the delete button to remove the employee from your list and calculation.
+Want to change your monthly budget? A field is provided to update that information.
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+### Demo Link
+[Demo Link Here](https://venomidas.github.io/weekend-jquery-salary-calculator/)
 
 ### Wireframe
 
@@ -44,7 +48,10 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 - [ ] Add styling or extra functionality that fits with the theme of this assignment.
 - [X] Update the _Total Monthly Cost_ section on the page to reflect the employee's removal.
 #### Other Thoughts
-- [ ] Host demo page with github pages
-- [ ] Add Link in README description to hosted demo page
+- [X] Host demo page with github pages
+- [X] Add Link in README description to hosted demo page
 - [X] Add favicon
+- [ ] Update wireframe with own screenshot
 - [ ] Submit assignment
+
+Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).

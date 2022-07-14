@@ -6,6 +6,7 @@ function readyNow() {
     // console.log('jQuery sourced');
     $('#add-employee-submit').on('click', addEmployee);
     $('body').on('click', '.delete-employee', deleteEmployee);
+    $('#submit-monthly-budget').on('click', updateMonthlyBudget);
 };
 
 const employees = [];
@@ -15,6 +16,8 @@ let employeeLastName;
 let employeeID;
 let employeeTitle;
 let employeeAnnualSalary;
+
+let monthlyBudget = 20000;
 
 function addEmployee() {
     // console.log('In addEmployee');
@@ -66,8 +69,8 @@ function appendEmployeeTable() {
                 <td>${employee.lastName}</td>
                 <td>${employee.id}</td>
                 <td>${employee.title}</td>
-                <td>$ ${employee.salary}</td>
-                <td>
+                <td class="salary-cell">$ ${employee.salary}</td>
+                <td class="delete-button-cell">
                     <button class="delete-employee">Delete</button>
                 </td>
             </tr>
@@ -84,7 +87,7 @@ function updateTotalMonthly() {
         // console.log(totalMonthly)
     };
     totalMonthly = (totalMonthly / 12);
-    if (totalMonthly > 20000) {
+    if (totalMonthly > monthlyBudget) {
         $('.output-total-monthly').addClass('red-background');
     } else {
         $('.output-total-monthly').removeClass('red-background');
@@ -107,4 +110,10 @@ function deleteEmployee() {
 function removeFromArray(array, search) {
     // console.log('In removeFromArray');
     employees.splice(search, 1);
+};
+
+function updateMonthlyBudget() {
+    console.log('In updateMonthlyBudget');
+    monthlyBudget = $('#input-monthly-budget').val();
+    updateTotalMonthly();
 };

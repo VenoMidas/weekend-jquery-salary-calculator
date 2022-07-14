@@ -40,7 +40,7 @@
                         <th>Last Name</th>
                         <th>ID</th>
                         <th>Title</th>
-                        <th>Annual Salary</th>
+                        <th class="salary-cell">Annual Salary</th>
                         <th></th>
                     </tr>
                 </thead>
@@ -50,8 +50,8 @@
                         <td>Doe</td>
                         <td>1234</td>
                         <td>Sample</td>
-                        <td>$ 55700</td>
-                        <td>
+                        <td class="salary-cell">$ 55700</td>
+                        <td class="delete-button-cell">
                             <button class="delete-employee">Delete</button>
                         </td>
                     </tr>
@@ -67,7 +67,10 @@
                     </tr>
                 </tfoot>
             </table>
-
+            <div>
+                <input id="input-monthly-budget" class="input-total-monthly" type="text" placeholder="Default Budget: 20000">
+                <button id="submit-monthly-budget" class="input-total-monthly">Update Monthly Budget</button>
+            </div>
             <h2 class="output-total-monthly">Total Monthly: $4641.66</h2>
         </div>
 
