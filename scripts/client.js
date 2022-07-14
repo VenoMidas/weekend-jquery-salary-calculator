@@ -29,10 +29,11 @@ function addEmployee() {
     // console.log(employeeAnnualSalary);
     createEmployee(employeeFirstName, employeeLastName, employeeID, employeeTitle, employeeAnnualSalary);
     clearInputFields();
+    appendEmployeeTable();
 };
 
 function createEmployee(firstName, lastName, ID, title, annualSalary) {
-    console.log('In createEmployee');
+    // console.log('In createEmployee');
     let employee = {
         firstName: firstName,
         lastName: lastName,
@@ -40,16 +41,34 @@ function createEmployee(firstName, lastName, ID, title, annualSalary) {
         title: title,
         salary: annualSalary,
     }
-    console.log(employee);
+    // console.log(employee);
     employees.push(employee);
-    console.log(employees);
+    // console.log(employees);
 };
 
 function clearInputFields() {
-    console.log('In clearInputFields');
+    // console.log('In clearInputFields');
     $('#input-first-name').val('');
     $('#input-last-name').val('');
     $('#input-id').val('');
     $('#input-title').val('');
     $('#input-annual-salary').val('');
+};
+
+function appendEmployeeTable() {
+    $('#output-employee-table').empty();
+    for (let employee of employees) {
+        $('#output-employee-table').append(`
+            <tr>
+                <td>${employee.firstName}</td>
+                <td>${employee.lastName}</td>
+                <td>${employee.id}</td>
+                <td>${employee.title}</td>
+                <td>$ ${employee.salary}</td>
+                <td>
+                    <button>Delete</button>
+                </td>
+            </tr>
+        `);
+    };
 };

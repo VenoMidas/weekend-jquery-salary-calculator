@@ -34,7 +34,7 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 - [X] Create Total Monthly Cost footer
 - [X] Create an empty array to store the employee objects in
 - [X] Collect the form information about the employee and store it
-- [ ] Append the employee information to the DOM
+- [X] Append the employee information to the DOM
 - [X] Empty the input fields
 - [ ] Use stored info to calculate monthly costs and append to the DOM
 - [ ] Change background to the total monthly cost to red if monthly cost exceeds $20,000
