@@ -61,3 +61,7 @@ tr:nth-child(even) {
 .output-total-monthly {
     float: right;
 }
+
+.red-background {
+    background-color: red;
+}

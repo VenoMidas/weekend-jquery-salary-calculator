@@ -36,8 +36,8 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 - [X] Collect the form information about the employee and store it
 - [X] Append the employee information to the DOM
 - [X] Empty the input fields
-- [ ] Use stored info to calculate monthly costs and append to the DOM
-- [ ] Change background to the total monthly cost to red if monthly cost exceeds $20,000
+- [X] Use stored info to calculate monthly costs and append to the DOM
+- [X] Change background to the total monthly cost to red if monthly cost exceeds $20,000
 - [ ] Create a 'Delete' button to remove an employee from the DOM (for base mode does not need to remove salary)
 - [ ] Update README description
 #### Stretch Goals

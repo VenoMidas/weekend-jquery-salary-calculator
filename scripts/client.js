@@ -75,13 +75,17 @@ function appendEmployeeTable() {
 };
 
 function updateTotalMonthly() {
-    console.log('In updateTotalMonthly');
+    // console.log('In updateTotalMonthly');
     let totalMonthly = 0;
     for (let employee of employees) {
-        console.log(employee.salary);
+        // console.log(employee.salary);
         totalMonthly += parseInt(employee.salary);
-        console.log(totalMonthly)
+        // console.log(totalMonthly)
     };
-    totalMonthly = (totalMonthly / 12).toFixed(2);
+    totalMonthly = (totalMonthly / 12);
+    if (totalMonthly > 20000) {
+        $('.output-total-monthly').addClass('red-background');
+    };
+    totalMonthly = totalMonthly.toFixed(2);
     $('.output-total-monthly').text(`Total Monthly: $${totalMonthly}`);
 };
