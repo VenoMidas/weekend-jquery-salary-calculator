@@ -38,11 +38,11 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 - [X] Empty the input fields
 - [X] Use stored info to calculate monthly costs and append to the DOM
 - [X] Change background to the total monthly cost to red if monthly cost exceeds $20,000
-- [ ] Create a 'Delete' button to remove an employee from the DOM (for base mode does not need to remove salary)
+- [X] Create a 'Delete' button to remove an employee from the DOM (for base mode does not need to remove salary)
 - [ ] Update README description
 #### Stretch Goals
 - [ ] Add styling or extra functionality that fits with the theme of this assignment.
-- [ ] Update the _Total Monthly Cost_ section on the page to reflect the employee's removal.
+- [X] Update the _Total Monthly Cost_ section on the page to reflect the employee's removal.
 #### Other Thoughts
 - [ ] Host demo page with github pages
 - [ ] Add Link in README description to hosted demo page

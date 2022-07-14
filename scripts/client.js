@@ -5,6 +5,7 @@ $(document).ready(readyNow);
 function readyNow() {
     // console.log('jQuery sourced');
     $('#add-employee-submit').on('click', addEmployee);
+    $('body').on('click', '.delete-employee', deleteEmployee);
 };
 
 const employees = [];
@@ -67,7 +68,7 @@ function appendEmployeeTable() {
                 <td>${employee.title}</td>
                 <td>$ ${employee.salary}</td>
                 <td>
-                    <button>Delete</button>
+                    <button class="delete-employee">Delete</button>
                 </td>
             </tr>
         `);
@@ -85,7 +86,25 @@ function updateTotalMonthly() {
     totalMonthly = (totalMonthly / 12);
     if (totalMonthly > 20000) {
         $('.output-total-monthly').addClass('red-background');
+    } else {
+        $('.output-total-monthly').removeClass('red-background');
     };
     totalMonthly = totalMonthly.toFixed(2);
     $('.output-total-monthly').text(`Total Monthly: $${totalMonthly}`);
+};
+
+function deleteEmployee() {
+    // console.log('In deleteEmployee');
+    let employee = $('.delete-employee').index(this);
+    // console.log('This is the employee you clicked', employee);
+    // console.log('This is the array before removing', employees);
+    removeFromArray(employees, employee);
+    updateTotalMonthly();
+    // console.log('This is the array after removing', employees);
+    $(this).parent().parent().remove();
+};
+
+function removeFromArray(array, search) {
+    // console.log('In removeFromArray');
+    employees.splice(search, 1);
 };
