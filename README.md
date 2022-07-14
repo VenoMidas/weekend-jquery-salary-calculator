@@ -16,6 +16,10 @@ Want to change your monthly budget? A field is provided to update that informati
 
 ![Wireframe](salary-calc-wireframe.png)
 
+### Screenshot
+
+![Screenshot](salary-calc-screenshot.png)
+
 ### Project Checklist
 #### Initial Project Planning
 - [X] Update README with instructions
@@ -43,15 +47,15 @@ Want to change your monthly budget? A field is provided to update that informati
 - [X] Use stored info to calculate monthly costs and append to the DOM
 - [X] Change background to the total monthly cost to red if monthly cost exceeds $20,000
 - [X] Create a 'Delete' button to remove an employee from the DOM (for base mode does not need to remove salary)
-- [ ] Update README description
+- [X] Update README description
 #### Stretch Goals
-- [ ] Add styling or extra functionality that fits with the theme of this assignment.
+- [X] Add styling or extra functionality that fits with the theme of this assignment.
 - [X] Update the _Total Monthly Cost_ section on the page to reflect the employee's removal.
 #### Other Thoughts
 - [X] Host demo page with github pages
 - [X] Add Link in README description to hosted demo page
 - [X] Add favicon
-- [ ] Update wireframe with own screenshot
-- [ ] Submit assignment
+- [X] Update wireframe with own screenshot
+- [X] Submit assignment
 
 Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).

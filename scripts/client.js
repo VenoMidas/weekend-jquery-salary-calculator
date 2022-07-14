@@ -31,6 +31,14 @@ function addEmployee() {
     // console.log(employeeTitle);
     employeeAnnualSalary = $('#input-annual-salary').val();
     // console.log(employeeAnnualSalary);
+    if (employeeFirstName === '' || employeeLastName === '' || employeeID === '' || employeeTitle === '' || employeeAnnualSalary === '') {
+        alert('Please fill out all employee fields!');
+        return;
+      };
+      if (isNaN(employeeAnnualSalary)) {
+        alert('Please enter only numbers for employee salary!');
+        return;
+      };
     createEmployee(employeeFirstName, employeeLastName, employeeID, employeeTitle, employeeAnnualSalary);
     clearInputFields();
     appendEmployeeTable();
@@ -115,5 +123,13 @@ function removeFromArray(array, search) {
 function updateMonthlyBudget() {
     console.log('In updateMonthlyBudget');
     monthlyBudget = $('#input-monthly-budget').val();
+    if (monthlyBudget === '') {
+        alert('Please fill out monthly budget field to update!');
+        return;
+      };
+    if (isNaN(monthlyBudget)) {
+        alert('Please enter only numbers for monthly budget!');
+        return;
+      };
     updateTotalMonthly();
 };
