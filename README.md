@@ -26,10 +26,10 @@ Here you can input your employee information and get a total monthly salary cost
 4. jQuery
 
 ## Acknowledgement
-Thanks to [Prime Digital Academy](www.primeacademy.io) and members of the Phrygian cohort who equipped and helped me to make this application a reality.
+Thanks to [Prime Digital Academy](https://www.primeacademy.io/) and members of the Phrygian cohort who equipped and helped me to make this application a reality.
 
 ## Support
-If you have suggestions or issues, please email me at [schuma1022@gmail.com](schuma1022@gmail.com)
+If you have suggestions or issues, please email me at [schuma1022@gmail.com](mailto:schuma1022@gmail.com)
 
 ### Project Checklist
 #### Initial Project Planning
