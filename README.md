@@ -25,6 +25,9 @@ Here you can input your employee information and get a total monthly salary cost
 3. Javascript
 4. jQuery
 
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
 ## Acknowledgement
 Thanks to [Prime Digital Academy](https://www.primeacademy.io/) and members of the Phrygian cohort who equipped and helped me to make this application a reality.
 
@@ -68,5 +71,5 @@ If you have suggestions or issues, please email me at [schuma1022@gmail.com](mai
 - [X] Add favicon
 - [X] Update wireframe with own screenshot
 - [X] Submit assignment
-- [ ] Test support link
-- [ ] Add license
+- [X] Test support link
+- [X] Add license
