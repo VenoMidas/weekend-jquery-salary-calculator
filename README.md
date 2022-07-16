@@ -2,23 +2,34 @@
 Create an application that records employee salaries and adds salaries up to report monthly costs. 
 
 ## Description
-Need to calculate the monthly salary cost of all of your employees? Maybe it is review season and you need
-to stay under budget when considering raises? Look no further!
+_Duration: 2-Day weekend sprint_
 
-Here you can input your employee information and get a total monthly salary cost at the end. Want to change 
-employee information you already input? Use the delete button to remove the employee from your list and calculation.
-Want to change your monthly budget? A field is provided to update that information.
+Need to calculate the monthly salary cost of all of your employees? Maybe it is review season and you need to stay under budget when considering raises? Look no further!
 
-### Demo Link
-[Demo Link Here](https://venomidas.github.io/weekend-jquery-salary-calculator/)
+Here you can input your employee information and get a total monthly salary cost at the end. Want to change employee information you already input? Use the delete button to remove the employee from your list and calculation. Want to change your monthly budget? A field is provided to update that information.
 
-### Wireframe
+[Deployed version of app](https://venomidas.github.io/weekend-jquery-salary-calculator/)
+
+## Wireframe
 
 ![Wireframe](salary-calc-wireframe.png)
 
-### Screenshot
+## Screenshot
 
 ![Screenshot](salary-calc-screenshot.png)
+
+## Built With
+
+1. HTML
+2. CSS
+3. Javascript
+4. jQuery
+
+## Acknowledgement
+Thanks to [Prime Digital Academy](www.primeacademy.io) and members of the Phrygian cohort who equipped and helped me to make this application a reality.
+
+## Support
+If you have suggestions or issues, please email me at [schuma1022@gmail.com](schuma1022@gmail.com)
 
 ### Project Checklist
 #### Initial Project Planning
@@ -57,5 +68,5 @@ Want to change your monthly budget? A field is provided to update that informati
 - [X] Add favicon
 - [X] Update wireframe with own screenshot
 - [X] Submit assignment
-
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+- [ ] Test support link
+- [ ] Add license
