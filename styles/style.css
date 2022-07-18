@@ -50,7 +50,8 @@ th {
     padding: 10px 0px;
 }
 
-th, td {
+th,
+td {
     text-align: left;
 }
 
